@@ -9,9 +9,9 @@ pipeline {
 
         stage('Build') {
             agent any
-            environment {
-              
-            }
+           /* environment {
+                           
+            } */
             steps {
                 echo "the Building release ${RELEASE} with log level ${LOG_LEVEL}..."
             }
